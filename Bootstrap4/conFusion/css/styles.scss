@@ -32,6 +32,22 @@ $carousel-item-height: 300px;
     color:floralwhite;
 }
 
+#button{
+  color: black;
+}
+
+#marg{
+  margin-left: 220px;
+}
+
+#section{
+  margin-left: 30px;
+}
+
+#section2{
+  margin-left: 140px;
+}
+
 address{
     font-size:80%;
     margin:0px;
@@ -74,3 +90,22 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+
+.modal-content {
+    border: 0px;
+    .modal-body {
+        background: $background-pale;
+    }
+
+    .modal-header {
+        background: $background-dark;
+        color: floralwhite;
+        border: 0px;
+        .close {
+            color: floralwhite;
+        }
+
+    }
+
+}
+
